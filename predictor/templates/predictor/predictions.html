@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+
+    <h1 id ='myheaders'> Predictions Page</h1>
+    <div  align = center id = 'myform' class = 'container myform'>
+        <form action = {% url 'predictor:predictionResults' %} method = 'POST'>
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+{% endblock content%}

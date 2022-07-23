@@ -1,0 +1,22 @@
+.myform{
+    
+    color: rgb(243, 238, 238);
+}
+
+#myheaders{
+    size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgb(12, 8, 247);
+}
+
+#bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* background-size: 100%; */
+}

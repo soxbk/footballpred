@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'predictor/custom.css' %}">
+{% block content%}
+
+
+<h1 id = 'myheaders' >Data Visualization Page</h1>
+{% comment %} <img src="{% static 'predictor/images/Points Scored x Total Yards.jpg' %}" class="img-fluid" alt="Points Scored x Total Yards">
+<img src="{% static 'predictor/images/predictionAccuracyPiechart.jpg' %}" class="img-fluid" alt="predictionAccuracyPiechart">
+<img src="{% static 'predictor/images/violinplot.jpg' %}" class="img-fluid" alt="violinplot">
+
+<div class="row">
+    <div class="column">
+      <img src="{% static 'predictor/images/Points Scored x Total Yards.jpg' %}" alt="Points Scored x Total Yards" style="width:30%">
+    </div>
+    <div class="column">
+      <img src="{% static 'predictor/images/predictionAccuracyPiechart.jpg' %}" alt="predictionAccuracyPiechart" style="width:30%">
+    </div>
+    <div class="column">
+      <img src="{% static 'predictor/images/violinplot.jpg' %}" alt="violinplot" style="width:30%">
+    </div>
+  </div> {% endcomment %}
+
+  <div class="row">
+    <div class="col-sm-4">
+        <img src="{% static 'predictor/images/Points Scored x Total Yards.jpg' %}" class="img-fluid" alt="Points Scored x Total Yards">
+    </div>    
+        <div class="col-sm-4">
+            <img src="{% static 'predictor/images/predictionAccuracyPiechart.jpg' %}" class="img-fluid" alt="predictionAccuracyPiechart">
+        </div>
+    <div class="col-sm-4">
+        <img src="{% static 'predictor/images/violinplot.jpg' %}" class="img-fluid" alt="violinplot">
+    </div>
+  </div>
+{% endblock content%}
